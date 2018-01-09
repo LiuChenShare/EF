@@ -13,6 +13,8 @@ using System.Reflection;
 using System.Data.SqlClient;
 using System.Text;
 using System.Threading.Tasks;
+using LC.Date.Extensions;
+using System.Data.Entity;
 
 namespace LC.DAL.Entity
 {

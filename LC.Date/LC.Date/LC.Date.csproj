@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseDatabase.cs" />
+    <Compile Include="ColumnAttribute.cs" />
     <Compile Include="Extensions\DataTableExtensions.cs" />
     <Compile Include="IPagedList.cs" />
     <Compile Include="PagedList.cs" />
@@ -60,7 +61,12 @@
     <Compile Include="IDatabase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\LC\LC.csproj">
+      <Project>{B43B92C0-48EC-462A-A21C-147F89CA42C0}</Project>
+      <Name>LC</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
