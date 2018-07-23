@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "自定义Code First约定�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "自定义Code First约定的方式B", "自定义Code First约定的方式B\自定义Code First约定的方式B.csproj", "{802538FF-B689-4BA4-807D-3991751F20C7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-初识", "1-初识", "{B5E396E3-AA67-4D9F-8B40-6DB0123E864D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-约定", "2-约定", "{D1588DCE-1609-4C95-AB28-AB14E14F2AC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +52,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{209D0F48-72F2-4D2D-A0C9-B84CDFC29DB0} = {B5E396E3-AA67-4D9F-8B40-6DB0123E864D}
+		{468AC148-9425-4A4C-80DB-CA8B445B23FC} = {B5E396E3-AA67-4D9F-8B40-6DB0123E864D}
+		{23ECC055-DDF5-47AF-8F40-19069557E61B} = {D1588DCE-1609-4C95-AB28-AB14E14F2AC1}
+		{802538FF-B689-4BA4-807D-3991751F20C7} = {D1588DCE-1609-4C95-AB28-AB14E14F2AC1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6E9C0EC6-07D6-4F2D-A0F3-AA9C7333EB98}

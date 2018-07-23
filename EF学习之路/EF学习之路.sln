@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF学习之路", "EF学习之路\EF学习之路.csproj", "{92BEAFFA-9FA5-43EB-88C1-2CFD923D453F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-数据库实体映射", "1-数据库实体映射", "{2F0E72E7-1D60-415E-B26A-6B9EE5F129C8}"
+	ProjectSection(SolutionItems) = preProject
+		说明.md = 说明.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-codefist", "2-codefist", "{F98BDB14-1A16-4390-9CBF-F0C53E062F2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-Data", "2-Data\2-Data.csproj", "{B3948E05-0047-4613-A2BB-AD2C0F983716}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-Data", "1-Data\1-Data.csproj", "{DA264F95-95E9-4C66-961C-146FED963018}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92BEAFFA-9FA5-43EB-88C1-2CFD923D453F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92BEAFFA-9FA5-43EB-88C1-2CFD923D453F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92BEAFFA-9FA5-43EB-88C1-2CFD923D453F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92BEAFFA-9FA5-43EB-88C1-2CFD923D453F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3948E05-0047-4613-A2BB-AD2C0F983716}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3948E05-0047-4613-A2BB-AD2C0F983716}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3948E05-0047-4613-A2BB-AD2C0F983716}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3948E05-0047-4613-A2BB-AD2C0F983716}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA264F95-95E9-4C66-961C-146FED963018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA264F95-95E9-4C66-961C-146FED963018}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA264F95-95E9-4C66-961C-146FED963018}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA264F95-95E9-4C66-961C-146FED963018}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B3948E05-0047-4613-A2BB-AD2C0F983716} = {F98BDB14-1A16-4390-9CBF-F0C53E062F2F}
+		{DA264F95-95E9-4C66-961C-146FED963018} = {2F0E72E7-1D60-415E-B26A-6B9EE5F129C8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D027C998-5B37-4146-81E0-13A08EC6161A}
+	EndGlobalSection
+EndGlobal
